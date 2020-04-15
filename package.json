@@ -1,0 +1,17 @@
+{
+  "name": "Agewell",
+  "version": "1.0.0",
+  "description": "Landing page for Agewell",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/style.scss css/style.css",
+      "watch:sass": "nodemon -e scss -x \"npm run compile:sass\""
+  },
+  "repository": "https://github.com/lennysoft90",
+  "author": "Leonard",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.2"
+  }
+}
